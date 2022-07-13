@@ -1,2 +1,2 @@
-qbittorrent-api
-pyyaml
+qbittorrent-api==2022.5.32
+PyYAML==6.0
