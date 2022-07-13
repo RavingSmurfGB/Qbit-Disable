@@ -23,7 +23,7 @@ Confirmed to work only on Windows, but would most likley work if the file name o
 >       pip install pyyaml
 >       pip install qbittorrent-api
  4. For autolaunch, create a shortcut of the client.pyw and insert into your startup folder
-> “C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp”
+> C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp
  5. Open config.txt to configure the active hours and qbittorent crednetials/ IP address/ Port. 
 
 
