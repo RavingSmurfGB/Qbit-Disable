@@ -1,0 +1,59 @@
+#################################################[Py_AutoBloons]#######################################################
+# This if the configuration file for Py_AutoBloons
+#
+#
+#   Logging
+#
+#   This option will allow for logging to a file, everything you see in your console will be logged to "game_log.txt".
+#   This will be placed in the main directory. 
+#   Only use this option for troubleshooting and reporting bugs!
+#   Example:
+#       Logging: True
+#
+#
+#   Qbittorrent_IP_Address
+#
+#   This will inform the script where to contact, if unchanged it will load localhost
+#   Example:
+#       Qbittorrent_IP_Address: 1.1.1.1
+#
+# 
+#   Qbittorrent_Port
+#
+#   This will inform the script what port to use, if unchanged it will load 8080 the defualt port for Qbittorrent
+#   Example:
+#       Qbittorrent_Port: 8071
+#
+#
+#   Qbittorrent_Username
+#
+#   This will inform the script what username to use, if unchanged it will load admin the defualt username for Qbittorrent
+#   Example:
+#       Qbittorrent_Username: Joseph
+#
+#
+#   Qbittorrent_Password
+#
+#   This will inform the script what password to use, if unchanged it will load adminadmin the defualt password for Qbittorrent
+#   Example:
+#       Qbittorrent_Username: Joseph1
+#
+#
+#   Active_Hours
+#
+#   This will be the hours that the script will enable torrents to be active, ensure adherance to the 24 hour time standard, the defualt will be between 3am - 9am
+#   The time must be entered in the following format 3am would equal 03.
+#   It only works on hours, minutes, seconds and anything else are not supported.
+#   The last hour is also counted and will not stop untill 11am in the bellow example.
+#   Example:
+#       Active_Hours: 03,04,05,07,08,09,10,11
+#
+#
+########################################################################################################################
+
+Logging: 
+Qbittorrent_IP_Address:
+Qbittorrent_Port:
+Qbittorrent_Username:
+Qbittorrent_Password: 
+Active_Hours:
